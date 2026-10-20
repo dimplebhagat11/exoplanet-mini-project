@@ -2,6 +2,9 @@
 
 A quick analysis of **confirmed exoplanets** using NASA Exoplanet Archive data.
 
+## Output Preview
+![Dashboard](exoplanet_dashboard.png)
+
 ## Libraries Used
 - `pandas` – data loading and cleaning
 - `numpy` – numerical operations (log scaling, filtering)
