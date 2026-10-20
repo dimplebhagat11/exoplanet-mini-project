@@ -17,11 +17,6 @@ A quick analysis of **confirmed exoplanets** using NASA Exoplanet Archive data.
    - Planet radius distribution (shows the "radius valley")
 4. Filters a rough "habitable-zone candidate" set.
 
-## How to Run
-```bash
-pip install pandas numpy matplotlib
-python exoplanet_analysis.py
-
 ## Findings
 
 - **Transit method dominates** the dataset — the vast majority of confirmed planets were found this way, driven by space telescopes like Kepler and TESS.
@@ -33,3 +28,8 @@ python exoplanet_analysis.py
 
 - The habitable-zone filter is a simplified approximation, not the full Kopparapu et al. formula.
 - Some planets have missing radius/period data and were dropped before analysis.
+
+## How to Run
+```bash
+pip install pandas numpy matplotlib
+python exoplanet_analysis.py
